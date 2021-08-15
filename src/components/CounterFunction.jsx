@@ -10,7 +10,9 @@ function CounterFunction(props) {
 
   return (
     <div>
-      <p>This is a counter function {count}</p>
+      <p>
+        {props.text} {count}
+      </p>
       <button onClick={handleIncrement}>+</button>
       <button onClick={handleDecrement}>-</button>
     </div>

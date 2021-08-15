@@ -5,7 +5,7 @@ import CounterClass from "./components/CounterClass";
 function App() {
   return (
     <div className="container">
-      <CounterFunction />
+      <CounterFunction text="This is a Counter Function " />
       <CounterClass text="This is a Counter Class" />
     </div>
   );
