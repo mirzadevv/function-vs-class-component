@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="container">
       <CounterFunction />
-      <CounterClass />
+      <CounterClass text="This is a Counter Class" />
     </div>
   );
 }

@@ -15,7 +15,9 @@ class CounterClass extends Component {
   render() {
     return (
       <div>
-        <p>This is a Counter Class {this.state.count}</p>
+        <p>
+          {this.props.text} {this.state.count}
+        </p>
         <button onClick={this.handleIncrement}>+</button>
         <button onClick={this.handleDecrement}>-</button>
       </div>
